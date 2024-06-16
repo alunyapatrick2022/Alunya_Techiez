@@ -1,0 +1,13 @@
+.why-choose-us>div {
+     display: grid;
+     display: -ms-grid;
+     display: -moz-grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto auto auto;
+     justify-content: space-around;
+}
+
+.why-choose-us-title h2 {
+     border-bottom: 3px solid goldenrod;
+     border-bottom-right-radius: 50px;
+}

@@ -1,0 +1,13 @@
+.hero-container {
+     display: -ms-grid;
+     display: moz-grid;
+     display: grid;
+     grid-template-columns: auto auto;
+     margin-top: 100px;
+}
+.hero-text{
+     margin-left: 100px;
+}
+.hero-banner {
+     margin-right: 100px;
+}

@@ -1,0 +1,27 @@
+.container{
+     display: -ms-grid;
+     display: -moz-grid;
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.brand-logo {
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.nav-links {
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     column-gap: 30px;
+     justify-content: space-around;
+     align-items: center;
+     margin-right: 30px;
+}
+.nav-links a {
+     text-decoration: none;
+}

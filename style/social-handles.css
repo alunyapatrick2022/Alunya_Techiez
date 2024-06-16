@@ -1,0 +1,17 @@
+.social-handles>div {
+     display: grid;
+     display: -ms-grid;
+     display: -moz-grid;
+     grid-template-columns: auto;
+     grid-template-rows: auto auto auto;
+     justify-content: space-around;
+}
+
+.our-vision-title h2 {
+     border-bottom: 3px solid goldenrod;
+     border-bottom-right-radius: 50px;
+}
+.social-handle-links img{
+     width: 30px;
+     height: 30px;
+}

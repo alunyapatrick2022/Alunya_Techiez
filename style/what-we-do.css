@@ -1,0 +1,22 @@
+.what-we-do-title{
+     display: grid;
+     grid-template-columns: auto;
+     justify-content: space-around;  
+}
+.what-we-do-title h2{
+     border-bottom: 3px solid goldenrod;
+     border-bottom-right-radius: 50px;
+}
+.what-we-do-content {
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: space-between;
+     column-gap: 10px;
+}
+.what-we-do-right-content-list-item ul {
+     list-style: none;
+}
+.what-we-do-right-content-list-item ul a{
+     text-decoration: none;
+     font-size: 1.5em;
+}
