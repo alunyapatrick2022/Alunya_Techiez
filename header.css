@@ -1,4 +1,8 @@
 .container{
+     position: fixed;
+     width: 100%;
+     top: 0;
+     background-color: forestgreen;
      display: -ms-grid;
      display: -moz-grid;
      display: grid;
@@ -24,4 +28,9 @@
 }
 .nav-links a {
      text-decoration: none;
+     color: white;
+     font-size: 18px;
+}
+.nav-links a:hover {
+     color: blue;
 }
