@@ -1,0 +1,15 @@
+.who-we-are-content {
+     display: grid;
+     grid-template-columns: auto;
+     justify-content: center;
+}
+.who-we-are-title {
+     display: grid;
+     grid-template-columns: auto;
+     justify-content: center;
+}
+
+.who-we-are-title h1 {
+     border-bottom: 3px solid goldenrod;
+     border-bottom-right-radius: 50px;
+}

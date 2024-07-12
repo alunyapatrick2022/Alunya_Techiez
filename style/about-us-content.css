@@ -1,0 +1,28 @@
+.about-us-content {
+     display: grid;
+     display: -ms-grid;
+     display: -moz-grid;
+     grid-template-columns: auto;
+     justify-content: space-between;
+}
+
+.welcome-title{
+     display: grid;
+     justify-content: center;
+}
+
+.welcome-title h1 {
+     border-bottom: 3px solid goldenrod;
+     border-bottom-right-radius: 50px;
+}
+
+.welcome-content {
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: space-between;
+     column-gap: 1rem;
+}
+.learn-more-link {
+     position: absolute;
+     right: 100px;
+}
